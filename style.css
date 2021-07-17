@@ -1,0 +1,48 @@
+body{
+    font-size: 12px;
+}
+table, tr, td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+.top {
+    width: 100%;
+}
+
+.top-div {
+    width: 70%;float: left;text-align: center;
+}
+
+.top-table {
+    width: 29%;float: left;
+    margin-left: 1%;
+}
+table tr td div{
+    width: 100%;
+}
+hr{
+    margin: 0;
+}
+table{
+    width: 100%;
+}
+.no-collapse, .no-collapse tr, .no-collapse tr td{
+    border-top: unset;
+    border-right: unset;
+    border-left: unset;
+}
+.no-collapse tr td{
+    height: 20px;
+}
+.height-15 tr td{
+    height: 15px;
+}
+.height-20 tr td{
+    height: 20px;
+}
+.height-30 tr td{
+    height: 30px;
+}
+.yellow{
+    background: #ffffb9;
+}
